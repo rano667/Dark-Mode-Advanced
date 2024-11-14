@@ -1,0 +1,24 @@
+/* src/styles.css */
+
+/* Light theme variables */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --primary-color: #236c9c;
+  --secondary-color: #5b5675;
+}
+
+/* Dark theme variables */
+.dark-theme {
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+  --primary-color: #90caf9;
+  --secondary-color: #a5d6a7;
+}
+
+/* Apply variables globally */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}

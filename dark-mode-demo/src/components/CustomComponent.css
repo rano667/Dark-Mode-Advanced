@@ -1,0 +1,12 @@
+/* src/components/CustomComponent.css */
+
+.custom-component {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .custom-component h1 {
+    color: var(--text-color);
+  }
+  
